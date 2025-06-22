@@ -1,7 +1,7 @@
 Benoita
 =======
 
-Benoita est un ouvrage écrit par Germaine Waton de Ferry (1885-1956), mon arrière grand-mère.
+Benoita est un ouvrage écrit par Germaine Waton de Ferry (1885-1956), mon arrière-grand-mère.
 
 Il est écrit en provencal et en français, chaque paragraphe trouvant sa traduction sur la page d'en face.
 
@@ -14,14 +14,14 @@ Ce projet a donc plusieurs objectifs :
 - fournir un outil de visualisation, afin de pouvoir faire de la lecture comparée
 
 ## Pré-requis technique
-- Python3 (disponible sur la plupart des plate-formes)
+- Python3 (disponible sur la plupart des plateformes)
 
 ## Installation
 Dans une ligne de commande, taper
 ```
 python3 -m venv venv
 ```
-cela aura pour effet de créer un environnement virtuel dans le dossier *venv*
+Cela aura pour effet de créer un environnement virtuel dans le dossier *venv*
 
 Installer ensuite les paquets nécessaires avec cette commande
 ```
