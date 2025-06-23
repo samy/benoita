@@ -29,7 +29,17 @@ venv/bin/pip3 install -r requirements.txt
 ```
 
 ## Utilisation
-La conversion depuis les scans situés dans le dossier __images__ se fait avec cette commande
+La conversion depuis les scans situés dans le dossier __images/pages__ se fait avec cette commande
 ```
 venv/bin/python3 ocr.py
 ```
+On obtient en sortie des fichiers .hocr du même nom que les images fournies.
+
+Vous pouvez ensuite les éditer avec n'importe quel éditeur de texte pour corriger les éventuelles erreurs de reconnaissance de caractères.
+
+On peut enfin générer le PDF final (qui sera nommé out.pdf).
+```
+venv/bin/hocr-pdf output/ --savefile out.pdf
+```
+
+Note : un fichier out.txt sera également généré, contenant le texte intégral de toutes les pages.
