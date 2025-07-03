@@ -15,8 +15,27 @@ Ce projet a donc plusieurs objectifs :
 
 ## Pré-requis technique
 - Python3 (disponible sur la plupart des plateformes)
+- Python-venv
+- Avoir installé Tesseract et les packs des langues que vous souhaitez utiliser
+
+Par exemple sous Linux pour le français et l'occitan:
+```
+sudo apt install tesseract-ocr
+sudo apt install tesseract-ocr-fra
+sudo apt install tesseract-ocr-oci
+```
 
 ## Installation
+Cloner le présent projet
+```
+git clone https://github.com/samy/benoita.git
+```
+
+Se rendre dans le dossier **benoita** que cette commande a créé:
+```
+cd benoita
+```
+
 Dans une ligne de commande, taper
 ```
 python3 -m venv venv
