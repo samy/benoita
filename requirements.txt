@@ -1,4 +1,4 @@
-pypdf==6.0.0
+pypdf==6.1.3
 pytesseract==0.3.13
 tqdm==4.67.1
 hocr-tools-lib @ git+https://github.com/samy/hocr-tools.git
